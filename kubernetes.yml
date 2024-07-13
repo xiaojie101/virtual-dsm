@@ -31,7 +31,7 @@ spec:
         - name: CPU_CORES
           value: "1"
         - name: DISK_SIZE
-          value: "16G"  # Kubernetes uses Gi, but DSM uses GB
+          value: "400G"  # Kubernetes uses Gi, but DSM uses GB
       volumeMounts:
         - mountPath: /storage
           name: storage
